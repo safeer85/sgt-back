@@ -347,6 +347,9 @@ app.get('/api/grades/exist', async (req, res) => {
   }
 });
 
+app.get('api/work', (req, res) => {
+  res.send('Hello, World! The server is running.');
+});
 
 
 app.listen(port, () => {
